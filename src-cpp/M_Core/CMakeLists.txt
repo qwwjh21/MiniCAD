@@ -1,4 +1,4 @@
-project(core)
+project(M_Core)
 
 file(GLOB SRCS *.cpp)
 file(GLOB HDRS *.h *.hpp)

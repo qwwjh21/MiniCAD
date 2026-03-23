@@ -7,6 +7,6 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
 		Qt5::Widgets
 		Qt5::OpenGL	
 		OpenGL::GL
-		core
-		entity
+		M_Core
+		M_Entity
 )

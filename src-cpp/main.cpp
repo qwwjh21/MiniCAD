@@ -4,7 +4,7 @@
 #include <QOpenGLFunctions>
 #include <QMouseEvent>
 #include <QWheelEvent>
-#include "entity/Box.h"
+#include "M_Entity/Box.h"
 
 class MyGLWidget : public QOpenGLWidget, protected QOpenGLFunctions
 {
