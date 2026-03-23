@@ -8,6 +8,9 @@ set(CMAKE_PREFIX_PATH "D:/coding/QT/5.12.4/msvc2017_64")
 
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt5 REQUIRED COMPONENTS Widgets)
+find_package(Qt5 REQUIRED COMPONENTS Widgets OpenGL)
+find_package(OpenGL REQUIRED)
 
 add_subdirectory("src-cpp")
+add_subdirectory(src-cpp/core)
+add_subdirectory(src-cpp/entity)
